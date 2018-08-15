@@ -3,7 +3,7 @@ Cookie based login to Ebay without API as normally required.
 
 # Usage:
 Using the script is extremely basic, you do only have to modify login.php with your username and password.
-### Edit the following parts inside of login.php
+### Edit the following code inside of login.php
 ```
 $data['userid'] = "YOUR_USERNAME"; // Email or Username  
 $data['pass'] = "YOUR_PASSWORD"; // Password here
