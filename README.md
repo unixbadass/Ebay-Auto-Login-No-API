@@ -1,9 +1,8 @@
-## Ebay Login without Developer API.
+# Ebay Login without Developer API.
 Cookie based login to Ebay without API as normally required.
 
-## Usage:
-Edit the following parts inside of login.php ->
-# Login.php
+# Usage:
+### Edit the following parts inside of login.php ->
 $data['userid'] = "YOUR_USERNAME"; // Email or Username  
 $data['pass'] = "YOUR_PASSWORD"; // Password here
 
