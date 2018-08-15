@@ -9,7 +9,7 @@ $formPage = 'http://signin.ebay.com/aw-cgi/eBayISAPI.dll?SignIn';
 $curl->curl_cookie_set($referer);
 
 $data = $curl->get_form_fields($formPage);
-$data['userid'] = "manhunt_86"; // Email or Username
+$data['userid'] = ""; // Email or Username
 $data['pass'] = ""; // Password here
 $data['UsingSSL'] = '0';
 
